@@ -1,5 +1,4 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "name": "Дикоростучі фрукти",
   "category": "tfc:the_world",
   "icon": "tfc:textures/item/food/elderberry.png",
@@ -1941,127 +1940,43 @@
           "text": ""
         },
         {
-          "text": "Jan"
+          "text": "Січ"
         },
         {
-          "text": "Feb"
+          "text": "Лют"
         },
         {
-          "text": "Mar"
+          "text": "Бер"
         },
         {
-          "text": "Apr"
+          "text": "Кві"
         },
         {
-          "text": "May"
+          "text": "Тра"
         },
         {
-          "text": "Jun"
+          "text": "Чер"
         },
         {
-          "text": "Jul"
+          "text": "Лип"
         },
         {
-          "text": "Aug"
+          "text": "Сер"
         },
         {
-          "text": "Sep"
+          "text": "Вер"
         },
         {
-          "text": "Oct"
+          "text": "Жов"
         },
         {
-          "text": "Nov"
+          "text": "Лис"
         },
         {
-          "text": "Dec"
+          "text": "Гру"
         },
         {
-          "text": "Cherry"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xa217ff"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "text": "Apple"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xa217ff"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "text": "Lemon"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0x6ab553"
+          "text": "Вишневе"
         },
         {
           "fill": "0x6ab553"
@@ -2094,7 +2009,13 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Olive"
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Яблуня"
         },
         {
           "fill": "0xa8986a"
@@ -2133,7 +2054,85 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Orange"
+          "text": "Лимонне"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Оливкове"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Апельсинове"
         },
         {
           "fill": "0xa8986a"
@@ -2172,7 +2171,7 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Peach"
+          "text": "Персикове"
         },
         {
           "fill": "0x6ab553"
@@ -2211,7 +2210,7 @@
           "fill": "0x6ab553"
         },
         {
-          "text": "Plum"
+          "text": "Слива"
         },
         {
           "fill": "0x6ab553"
@@ -2250,7 +2249,7 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Banana"
+          "text": "Банан"
         },
         {
           "fill": "0xa8986a"
@@ -2289,28 +2288,28 @@
           "fill": "0xa8986a"
         }
       ],
-      "text": "The fruiting calendar for fruit trees.",
+      "text": "Календар плодоношення фруктових дерев.",
       "title": "Фруктові дерева",
       "legend": [
         {
-          "text": "Dormant",
+          "text": "Простоювання",
           "color": "0xa8986a"
         },
         {
-          "text": "Healthy",
+          "text": "Ріст",
           "color": "0x6ab553"
         },
         {
-          "text": "Flowering",
+          "text": "Цвітіння",
           "color": "0xcca0db"
         },
         {
-          "text": "Fruiting",
+          "text": "Плодоношення",
           "color": "0xa217ff"
         }
       ],
       "columns": 12,
-      "first_column_width": 45,
+      "first_column_width": 48,
       "column_width": 15,
       "row_height": 10,
       "left_buffer": 5,
@@ -2346,7 +2345,7 @@
     {
       "type": "patchouli:text",
       "anchor": "blackberry",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 7 - 24 °C$(br)$(bold)$(l:mechanics/hydration)Опади$(): 24 - 100мм$(br2)Кущі ожини ростуть з лютого по травень, починають цвісти в червні та липні, а плодоносять у серпні.$(br2)Їх можна знайти в місцях з невеликою кількістю дерев.",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 7 - 24 °C$(br)$(bold)$(l:mechanics/hydration)Опади$(): 24 - 100мм$(br2)Кущі ожини ростуть з лютого по травень, цвітуть у червні-липні, плодоносять у серпні.$(br2)Їх можна зустріти в місцях з невеликою кількістю дерев.",
       "title": "Кущ ожини"
     },
     {
@@ -3117,12 +3116,12 @@
     {
       "type": "patchouli:text",
       "anchor": "wintergreen_berry",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -6 - 17 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 12 - 100 %$(br2)Кущі брусниці ростуть з травня по вересень, починають цвісти в жовтні-листопаді, плодоносять в грудні.$(br2)Їх можна зустріти в лісах.",
-      "title": "Кущ брусниці"
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -6 - 17 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 12 - 100 %$(br2)Кущі гаультерії ростуть з травня по вересень, починають цвісти в жовтні-листопаді, плодоносять в грудні.$(br2)Їх можна зустріти в лісах.",
+      "title": "Кущ гаультерії"
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "Помісячні стадії росту куща брусниці",
+      "text": "Помісячні стадії росту куща гаультерії",
       "multiblocks": [
         {
           "pattern": [
@@ -3249,46 +3248,43 @@
           "text": ""
         },
         {
-          "text": "Jan"
+          "text": "Січ"
         },
         {
-          "text": "Feb"
+          "text": "Лют"
         },
         {
-          "text": "Mar"
+          "text": "Бер"
         },
         {
-          "text": "Apr"
+          "text": "Кві"
         },
         {
-          "text": "May"
+          "text": "Тра"
         },
         {
-          "text": "Jun"
+          "text": "Чер"
         },
         {
-          "text": "Jul"
+          "text": "Лип"
         },
         {
-          "text": "Aug"
+          "text": "Сер"
         },
         {
-          "text": "Sep"
+          "text": "Вер"
         },
         {
-          "text": "Oct"
+          "text": "Жов"
         },
         {
-          "text": "Nov"
+          "text": "Лис"
         },
         {
-          "text": "Dec"
+          "text": "Гру"
         },
         {
-          "text": "Snowberry"
-        },
-        {
-          "fill": "0xa8986a"
+          "text": "Ожина"
         },
         {
           "fill": "0xa8986a"
@@ -3324,46 +3320,10 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Bunchberry"
-        },
-        {
           "fill": "0xa8986a"
         },
         {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0x6ab553"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xcca0db"
-        },
-        {
-          "fill": "0xa217ff"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "fill": "0xa8986a"
-        },
-        {
-          "text": "Gooseberry"
+          "text": "Малина"
         },
         {
           "fill": "0xa8986a"
@@ -3402,7 +3362,277 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Cloudberry"
+          "text": "Чорниця"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Бузина"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        }
+      ],
+      "text": "Календар плодоношення великих ягідних кущів.",
+      "title": "Високі ягідні кущі",
+      "legend": [
+        {
+          "text": "Простоювання",
+          "color": "0xa8986a"
+        },
+        {
+          "text": "Ріст",
+          "color": "0x6ab553"
+        },
+        {
+          "text": "Цвітіння",
+          "color": "0xcca0db"
+        },
+        {
+          "text": "Плодоношення",
+          "color": "0xa217ff"
+        }
+      ],
+      "columns": 12,
+      "first_column_width": 45,
+      "column_width": 15,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 11,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "tfc:table",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Січ"
+        },
+        {
+          "text": "Лют"
+        },
+        {
+          "text": "Бер"
+        },
+        {
+          "text": "Кві"
+        },
+        {
+          "text": "Тра"
+        },
+        {
+          "text": "Чер"
+        },
+        {
+          "text": "Лип"
+        },
+        {
+          "text": "Сер"
+        },
+        {
+          "text": "Вер"
+        },
+        {
+          "text": "Жов"
+        },
+        {
+          "text": "Лис"
+        },
+        {
+          "text": "Гру"
+        },
+        {
+          "text": "Сніжноягід."
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Кизил"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Аґрус"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0x6ab553"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xcca0db"
+        },
+        {
+          "fill": "0xa217ff"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "fill": "0xa8986a"
+        },
+        {
+          "text": "Морошка"
         },
         {
           "fill": "0xa8986a"
@@ -3441,7 +3671,7 @@
           "fill": "0xa8986a"
         },
         {
-          "text": "Strawberry"
+          "text": "Полуниця"
         },
         {
           "fill": "0xcca0db"
@@ -3480,7 +3710,10 @@
           "fill": "0x6ab553"
         },
         {
-          "text": "Wintergreen"
+          "text": "Гаультерія"
+        },
+        {
+          "fill": "0xa8986a"
         },
         {
           "fill": "0xa8986a"
@@ -3516,10 +3749,7 @@
           "fill": "0xa217ff"
         },
         {
-          "fill": "0xa8986a"
-        },
-        {
-          "text": "Cranberry"
+          "text": "Журавлина"
         },
         {
           "fill": "0xa8986a"
@@ -3558,23 +3788,23 @@
           "fill": "0xa8986a"
         }
       ],
-      "text": "The fruiting calendar for berry bushes.",
-      "title": "Berry Bushes",
+      "text": "Календар плодоношення малих ягідних кущів.",
+      "title": "Малі ягідні кущі",
       "legend": [
         {
-          "text": "Dormant",
+          "text": "Простоювання",
           "color": "0xa8986a"
         },
         {
-          "text": "Healthy",
+          "text": "Ріст",
           "color": "0x6ab553"
         },
         {
-          "text": "Flowering",
+          "text": "Цвітіння",
           "color": "0xcca0db"
         },
         {
-          "text": "Fruiting",
+          "text": "Плодоношення",
           "color": "0xa217ff"
         }
       ],

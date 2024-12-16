@@ -1,12 +1,11 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "name": "Ковальське горно",
   "category": "tfc:mechanics",
   "icon": "tfc:textures/block/molten_lit.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Ковальське горно$() - це пристрій для $(l:mechanics/heating)нагрівання$() та плавлення предметів. Для роботи $(l:mechanics/crucible)тигля$() також потрібно горно. Зазвичай воно використовуються для нагрівання предметів, щоб підготувати їх до кування на $(l:mechanics/anvils)ковадлі$(). $(br)Для спорудження ковальського горна потрібно 5 $(thing)каменевих$() блоків, що оточують $(l:mechanics/charcoal_pit#charcoal_pile)купу деревного вугілля$() із 7 або 8 шарів, яку потрібно підпалити."
+      "text": "$(thing)Ковальське горно$() - це пристрій для $(l:mechanics/heating)нагрівання$() та плавлення предметів. Для роботи $(l:mechanics/crucible)тигля$() також потрібно горно. Зазвичай воно використовується для нагрівання предметів, щоб підготувати їх до кування на $(l:mechanics/anvils)ковадлі$(). $(br)Для спорудження ковальського горна потрібно 5 $(thing)каменевих$() блоків, що оточують $(l:mechanics/charcoal_pit#charcoal_pile)купу деревного вугілля$() із 7 або 8 шарів, яку потрібно підпалити."
     },
     {
       "type": "patchouli:multiblock",
