@@ -1,0 +1,418 @@
+{
+  "name": "Скляні вироби",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:glass",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Найпростішими скляними виробами є $(thing)Скляні шиби$() та $(thing)Блоки скла$(). Щоб скрафтити їх, ви повинні почати з $(l:mechanics/glassworking#blowpipe)Духової трубки$() зі $(thing)Скляною шихтою$(), а потім виконати $(thing)Виливку$().$(br)$(li)$(bold)Виливка на стіл$() використовується для створення $(thing)Скляних шиб$()$(li)$(bold)Виливка в резервуар$() використовується для створення $(thing)Блоків скла$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Скло також можна $(thing)пофарбувати$() перед виливкою, щоб створити кольорове скло. Колір залежить від типу скляної шихти та будь-якого доданого пилу.$(br2)Кожен тип $(thing)Скляної шихти$() має різний природний колір скла, який вони створять. $(thing)Силікатні$() скляні шихти можна пофарбувати в різні кольори, $(thing)Олівінові$() та $(thing)Вулканічні$() можна пофарбувати у відносно небагато кольорів."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Скляні шиби$() виготовляються шляхом $(thing)Виливки на стіл$(). Стіл для виливки створюється шляхом розміщення до 16-ти $(thing)Обшитих латунню блоків$() на порожній території.$(br2) 1. Причепіть $(l:mechanics/glassworking)Скляну шихту$() до $(thing)Духової трубки$().$(br) 2. Нагрійте трубку до стану $(4)$(bold)Червоніє$().$(br) 3. $(item)$(k:key.use)$() $(thing)Духовою трубкою$() по поверхні стола.$(br) 4. Нарешті, $(item)$(k:key.use)$() $(l:mechanics/glassworking#paddle)Лопаткою$(), щоб розгладити скло.",
+      "title": "Виливка на стіл"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/glass_panes_1.png",
+        "tfc:textures/gui/book/tutorial/glass_panes_2.png",
+        "tfc:textures/gui/book/tutorial/glass_panes_3.png"
+      ],
+      "text": "Коли скло охолоне, його можна підібрати, зламавши його $(l:mechanics/glassworking#saw)Пилкою з коштовностей$().",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Блоки скла$() виготовляються шляхом $(thing)Виливки в резервуар$(). Резервуар створюється шляхом оточення блоку повітря $(thing)Обшитими латунню блоками$() з усіх сторін, окрім верхньої.$(br2) 1. Причепіть $(l:mechanics/glassworking)Скляну шихту$() до $(thing)Духової трубки$().$(br) 2. Нагрійте трубку до стану $(4)$(bold)Червоніє$().$(br) 3. $(item)$(k:key.use)$() $(thing)Духовою трубкою$() по поверхні стола.",
+      "title": "Виливка в резервуар"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/glass_block_1.png",
+        "tfc:textures/gui/book/tutorial/glass_block_2.png",
+        "tfc:textures/gui/book/tutorial/glass_block_3.png"
+      ],
+      "text": "Коли скло охолоне, його можна підібрати, зламавши його $(l:mechanics/glassworking#saw)Пилкою з коштовностей$().",
+      "border": true
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "coloring",
+      "text": "Скло має природний колір залежно від типу використовуваної $(l:mechanics/glassworking)Скляної шихти$(). Інші кольори можна зробити за допомогою $(l:mechanics/bowls)Миски$().$(br2)Для використання розмістіть $(l:mechanics/bowls)Миску$() на землю, тоді $(item)$(k:key.use)$() з тим чи іншим $(thing)Пилом$(). Перед $(thing)Виливкою$(), використайте $(thing)Духову трубку$() по мисці для додавання пилу до шихти.",
+      "title": "Фарбування скла"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br2)Наступні сторінки показують різноманітні комбінації типів скла та пилових матеріалів для створення кожного кольору."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)$(7)Білий$(): Силікатне або Гематитове скло + $(thing)Кальцинована сода$()$(li)$(bold)$(0)Чорний$(): Будь-яке скло + $(thing)Графіт$()$(li)$(bold)$(8)Сірий$(): Будь-яке + $(thing)Графіт$() + $(thing)Кальц. сода$()$(li)$(bold)$(7)Світло-сірий$(): Будь-яке + $(thing)Графіт$() + 2x $(thing)Кальц. сода$()$(li)$(bold)$(5)Фіолетовий$(): Будь-яке + $(thing)Залізо$() + $(thing)Мідь$()$(li)$(bold)$(#964b00)Коричневий$(): Будь-яке + $(thing)Нікель$()",
+      "title": "Кольори фарби"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)$(3)Бірюзовий$(): Невулканічне скло + $(thing)Мідь$() + $(thing)Сапфір$()$(li)$(bold)$(2)Зелений$(): Силікатне або Гематитове скло + $(thing)Залізо$()$(li)$(bold)$(a)Лаймовий$(): Силікатне або Гематитове скло + $(thing)Залізо$() + $(thing)Кальц. сода$()$(li)$(bold)$(b)Блакитний$(): Силікатне скло + $(thing)Лазурит$()$(li)$(bold)$(1)Синій$(): Силікатне скло + $(thing)Мідь$()$(li)$(bold)$(4)Червоний$(): Силікатне або Гематитове скло + $(thing)Олово$()$(li)$(bold)$(6)Жовтий$(): Силікатне або Гематитове скло + $(thing)Срібло$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(bold)$(#ef8e38)Помаранчевий$(): Силікатне скло + $(thing)Пірит$()$(li)$(bold)$(5)Пурпурний$(): Силікатне або Гематитове скло + $(thing)Рубін$()$(li)$(bold)$(d)Рожевий$(): Силікатне скло + $(thing)Золото$()$(li)$(bold)$(0)Тоноване$(): Несилікатне скло + $(thing)Аметист$()"
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "tfc:table_small",
+      "strings": [
+        {
+          "text": ""
+        },
+        {
+          "text": "Ч"
+        },
+        {
+          "text": "Т"
+        },
+        {
+          "fill": "0xff42f2"
+        },
+        {
+          "fill": "0x8af3ff"
+        },
+        {
+          "fill": "0x526cff"
+        },
+        {
+          "fill": "0xe3e3e3"
+        },
+        {
+          "fill": "0xe69407"
+        },
+        {
+          "fill": "0xc738c9"
+        },
+        {
+          "fill": "0xffe81c"
+        },
+        {
+          "fill": "0x48ff1f"
+        },
+        {
+          "fill": "0xe01414"
+        },
+        {
+          "fill": "0x0c9400"
+        },
+        {
+          "fill": "0x188a9e"
+        },
+        {
+          "fill": "0x7d4f00"
+        },
+        {
+          "fill": "0x6e059c"
+        },
+        {
+          "fill": "0x7d7d7d"
+        },
+        {
+          "fill": "0xbdbdbd"
+        },
+        {
+          "fill": "0x000000"
+        },
+        {
+          "text": "Силікатне"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Гематитове"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Олівінове"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "text": "Вулканічне"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3d42a8"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0xb33e3e"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        },
+        {
+          "fill": "0x3eb340"
+        }
+      ],
+      "text": "Можливі варіації фарбування скла. 'Ч' - це чисте, 'Т' - тоноване. Кольори можна створювати лише з певних скляних шихт.",
+      "title": "Варіації кольору скла",
+      "legend": [
+        {
+          "text": "Можна скрафтити",
+          "color": "0x3eb340"
+        },
+        {
+          "text": "Не можна скрафтити",
+          "color": "0xb33e3e"
+        },
+        {
+          "text": "Колір за замовчув.",
+          "color": "0x3d42a8"
+        }
+      ],
+      "columns": 18,
+      "first_column_width": 45,
+      "column_width": 10,
+      "row_height": 10,
+      "left_buffer": 5,
+      "top_buffer": 15,
+      "draw_background": true
+    },
+    {
+      "type": "patchouli:empty",
+      "draw_filler": false
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "lamp_glass",
+      "recipe": "tfc:glassworking/lamp_glass",
+      "text": "$(thing)Скло ліхтаря$() є необхідним компонентом для крафту $(l:mechanics/lamps)Ліхтарів$()."
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "jar",
+      "recipe": "tfc:glassworking/jar",
+      "text": "$(l:mechanics/jarring)Банки$() також виготовляються з дмуханого скла, але тільки силікатного або гематитового."
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "anchor": "glass_bottle",
+      "recipe": "tfc:glassworking/silica_bottle",
+      "text": "$(thing)Скляні пляшки$() також можна виготовити. Якість скляної пляшки залежить від типу скла, використаного для її виготовлення."
+    },
+    {
+      "type": "tfc:glassworking_recipe",
+      "recipe": "tfc:glassworking/lens",
+      "text": "$(thing)Лінзи$() використовуються для крафту підзорної труби, компасу та детектора денного світла."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tag:tfc:glass_batches": 1,
+    "tag:forge:glass_panes": 2,
+    "tag:forge:glass": 4
+  }
+}
