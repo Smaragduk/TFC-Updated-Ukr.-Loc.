@@ -1,72 +1,72 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Glassworking",
+  "name": "Склоробство",
   "category": "tfc:mechanics",
   "icon": "tfc:silica_glass_bottle",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "Glassworking is the process of turning sand into glass. To start, you must create a $(thing)Glass Batch$(), of which there are four types:$(br)$(br) 1. $(thing)Silica$(), from white sand.$(br) 2. $(thing)Hematitic$(), from yellow, red, or pink sand.$(br) 3. $(thing)Olivine$(), from green or brown sand.$(br) 4. $(thing)Volcanic$(), from black sand."
+      "text": "Склоробство — це процес перетворення піску на скло. Для початку ви повинні створити $(thing)Скляну шихту$() чотирьох типів:$(br)$(br) 1. $(thing)Силікатна$(), з білого піску.$(br) 2. $(thing)Гематитова$(), з жовтого, червоного або рожевого піску.$(br) 3. $(thing)Олівінова$(), із зеленого або коричневого піску.$(br) 4. $(thing)Вулканична$(), із чорного піску."
     },
     {
       "type": "patchouli:crafting",
       "recipe": "tfc:crafting/silica_glass_batch",
-      "text": "Glass batches can then be crafted using one of the aforementioned colors of sand, plus $(l:mechanics/glassworking#lime)Lime$() and a type of $(l:mechanics/glassworking#potash)Potash$()."
+      "text": "Тоді скляні шихти можна скрафтити, використовуючи один із вищезгаданих кольорів піску, а також $(l:mechanics/glassworking#lime)Вапно$() і один з типів $(l:mechanics/glassworking#potash)Калійних добрив$()."
     },
     {
       "type": "tfc:heat_recipe",
       "anchor": "lime",
       "recipe": "tfc:heating/lime",
-      "text": "$(thing)Lime$() is one of the ingredients required to make glass batches. It is a powder obtained by $(l:mechanics/heating)heating$() $(l:mechanics/flux)Flux$()."
+      "text": "$(thing)Вапно$() є одним із інгредієнтів, необхідних для виготовлення скляних шихт. Це порошок, отриманий шляхом $(l:mechanics/heating)нагріванням$() $(l:mechanics/flux)Флюсу$()."
     },
     {
       "type": "tfc:heat_recipe",
       "anchor": "potash",
       "recipe": "tfc:heating/soda_ash_from_seaweed",
-      "text": "A type of $(thing)Potash$() or equivalent is also required for glass batches. $(thing)Soda Ash$() can be used, which is a powder made from heating $(thing)Dried Seaweed$() or $(thing)Kelp$(). $(l:the_world/ores_and_minerals#saltpeter)Saltpeter$() can be used as well."
+      "text": "Для скляних шихт також потрібен тип $(thing)Калієвого добрива$() або еквівалент. Можна використовувати $(thing)Кальциновану соду$(), яка є порошком, що отриманий шляхом нагрівання $(thing)Сушених водоростей$() або $(thing)Ламінарії$(). Також можна використовувати $(l:the_world/ores_and_minerals#saltpeter)Селітру$()."
     },
     {
       "type": "patchouli:text",
-      "text": "Glassworking is done by starting with a glass batch, and then completing a series of steps. These steps may require specific tools:$(br)$(li)A $(l:mechanics/glassworking#blowpipe)Blowpipe$(), to $(thing)Blow$() and $(thing)Stretch$()$(li)A $(l:mechanics/glassworking#paddle)Paddle$(), to $(thing)Flatten$()$(li)$(l:mechanics/glassworking#jacks)Jacks$(), to $(thing)Pinch$()$(li)A $(l:mechanics/glassworking#saw)Gem Saw$(), to $(thing)Saw$()",
-      "title": "Tools of the Trade"
+      "text": "Склоробство починається зі скляної шихти і закінчується рядом кроків. Для виконання цих кроків можуть знадобитися спеціальні інструменти:$(br)$(li)$(l:mechanics/glassworking#Духову трубку)Духова трубка$(), щоб $(thing)видувати$() та $(thing)розтягувати$()$(li)$(l:mechanics/glassworking#paddle)Весло$(), щоб $(thing)сплющувати$()$(li)$(l:mechanics/glassworking#jacks)Шипці$(), щоб $(thing)стискати$()$(li)$(l:mechanics/glassworking#saw)Пила з коштовностей$(), щоб $(thing)пиляти$()",
+      "title": "Інструменти ремесла"
     },
     {
       "type": "tfc:knapping_recipe",
       "anchor": "blowpipe",
       "recipe": "tfc:clay_knapping/blowpipe",
-      "text": "The most important tool is the $(thing)Blowpipe$(). It can be $(thing)knapped$() from clay, and then fired into a $(thing)Ceramic Blowpipe$()."
+      "text": "Найважливішим інструментом є $(thing)Духова трубка$(). Її можна $(thing)відбити$() з глини, а потім випалити в $(thing)Керамічну духову трубку$()."
     },
     {
       "type": "tfc:anvil_recipe",
       "recipe": "tfc:anvil/blowpipe",
-      "text": "Ceramic blowpipes are brittle, and have a chance to to break when used. A more sturdy blowpipe can be $(l:mechanics/anvils#working)worked$() from a $(thing)Brass Rod$() on an anvil."
+      "text": "Керамічні духові трубки крихкі, і під час використання вони можуть зламатися. Міцнішу духову трубку можна $(l:mechanics/anvils#working)створити$() з $(thing)Латунного пруту$() на ковадлі."
     },
     {
       "type": "patchouli:crafting",
       "anchor": "paddle",
       "recipe": "tfc:crafting/paddle",
-      "text": "The $(thing)Flatten$() operation can be done with a $(thing)Paddle$(), which is crafted from wood."
+      "text": "Операцію $(thing)Сплющування$()  можна виконати за допомогою $(thing)Весла$(), виготовленого з дерева."
     },
     {
       "type": "tfc:welding_recipe",
       "anchor": "jacks",
       "recipe": "tfc:welding/jacks",
-      "text": "The $(thing)Pinch$() operation can be done with $(thing)Jacks$(), made from welding two brass rods together."
+      "text": "Операцію $(thing)Стискання$() можна виконати за допомогою $(thing)Щипців$(), створених шляхом зварювання двох латунних прутів."
     },
     {
       "type": "patchouli:crafting",
       "anchor": "saw",
       "recipe": "tfc:crafting/gem_saw",
-      "text": "The $(thing)Saw$() operation can be done with a $(thing)Gem Saw$(). The gem saw is also used to break both $(thing)Glass Blocks$() and $(thing)Glass Panes$() and obtain them."
+      "text": "Операцію $(thing)Пиляння$() можна виконати за допомогою $(thing)Пили з коштовностей$(). Пила з коштовностей також використовується, щоб отримати назад $(thing)Блоки скла$() та $(thing)Скляні шиби$() при їхньому ламанні."
     },
     {
       "type": "patchouli:text",
-      "text": "First, glass on the blowpipe must be heated to $(4)$(bold)Faint Red$().Then, hold the blowpipe and hold $(item)$(k:key.use)$() to perform each step$().$(br2)$(bold)Blow$()$(br)Use the $(thing)Blowpipe$() while facing straight ahead.$(br2)$(bold)Stretch$()$(br)Use the $(thing)Blowpipe$() while facing straight down.",
-      "title": "How to Glass"
+      "text": "Спочатку скло на духовій трубі має бути нагріте до стану $(4)$(bold)Червоніє$(). Потім утримуйте духову трубку й утримуйте $(item)$(k:key.use)$(), щоб виконати кожен крок.$(br2)$(bold)Видування$()$(br)Використовуйте $(thing)Духову трубку$(), дивлячись прямо вперед. $(br2)$(bold)Розтягування$()$(br)Використовуйте $(thing)Духову трубку$(), дивлячись прямо вниз.",
+      "title": "Як виготовляти скло"
     },
     {
       "type": "patchouli:text",
-      "text": "$(bold)Flatten$()$(br)Use the $(thing)Blowpipe$() while holding a $(l:mechanics/glassworking#paddle)Paddle$() in your offhand.$(br2)$(bold)Pinch$()$(br)Use the $(thing)Blowpipe$() while holding $(l:mechanics/glassworking#jacks)Jacks$() in your offhand.$(br2)$(bold)Saw$()$(br)Use the $(thing)Blowpipe$() while holding a $(l:mechanics/glassworking#saw)Gem Saw$() in your offhand.$(br2)$(bold)Roll$()$(br)Use the $(thing)Blowpipe$() with a $(l:mechanics/weaving#wool_cloth)Wool Cloth$() in your offhand."
+      "text": "$(bold)Сплющування$()$(br)Використовуйте $(thing)Духову трубку$(), тримаючи $(l:mechanics/glassworking#paddle)Весло$() в другій руці.$(br2)$(bold)Стискання$()$(br)Використовуйте $(thing)Духову трубку$(), тримаючи $(l:mechanics/glassworking#jacks)Щипці$() в другій руці.$(br2)$(bold)Пиляння$()$(br)Використовуйте $(thing)Духову трубку$(), тримаючи $(l:mechanics/glassworking#saw)Пилу з коштовностей$() в другій руці.$(br2)$(bold)Прокатування$()$(br)Використовуйте $(thing)Духову трубку$() з $(l:mechanics/weaving#wool_cloth)Вовняною тканиною$() в другій руці."
     }
   ],
   "read_by_default": true,

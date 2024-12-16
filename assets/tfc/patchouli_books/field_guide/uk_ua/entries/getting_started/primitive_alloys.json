@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Сплави$() - це спосіб змішування двох або більше металів разом для створення нового, більш міцного матеріалу. На початку гри - мідь є корисним металом для створення інструменту. Наступний рівень металу є одним із трьох типів $(thing)бронзи$(). Сплав складається зі складових  $(thing)металів$(), кожен з яких повинен задовольняти певний відсоток від загального цілого."
+      "text": "$(thing)Сплави$() - це спосіб змішування двох або більше металів разом для створення нового, більш міцного матеріалу. На початку гри - Мідь є корисним металом для створення інструменту. Наступний рівень металу є одним із трьох типів $(thing)бронзи$(). Сплав складається зі складових  $(thing)металів$(), кожен з яких повинен задовольняти певний відсоток від загального цілого."
     },
     {
       "type": "patchouli:text",
@@ -21,48 +21,48 @@
       "item": "tfc:metal/ingot/bronze",
       "title": "Олов'яна бронза",
       "link_recipes": false,
-      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)88 - 92 % : $(thing)мідь$()$(li)8 - 12 % : $(thing)олово$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)88 - 92 % : $(thing)Мідь$()$(li)8 - 12 % : $(thing)Олово$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/bismuth_bronze",
       "title": "Бісмутова бронза",
       "link_recipes": false,
-      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)20 - 30 % : $(thing)цинк$()$(li)50 - 65 % : $(thing)мідь$()$(li)10 - 20 % : $(thing)бісмут$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)20 - 30 % : $(thing)Цинк$()$(li)50 - 65 % : $(thing)Мідь$()$(li)10 - 20 % : $(thing)Бісмут$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/black_bronze",
       "title": "Чорна бронза",
       "link_recipes": false,
-      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)50 - 70 % : $(thing)мідь$()$(li)10 - 25 % : $(thing)срібло$()$(li)10 - 25 % : $(thing)золото$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)50 - 70 % : $(thing)Мідь$()$(li)10 - 25 % : $(thing)Срібло$()$(li)10 - 25 % : $(thing)Золото$()$(br2)"
     },
     {
       "type": "patchouli:text",
-      "text": "Other alloys are not suitable for creating tools. These are $(thing)Brass$(), $(thing)Rose Gold$(), and $(thing)Sterling Silver$().$(br2)$(thing)Brass$() is a useful alloy for all sorts of contraptions, including $(l:mechanics/mechanical_power)Mechanical Power$().$(br2)$(thing)Rose Gold$() and $(thing)Sterling Silver$() are used for crafting $(l:mechanics/steel#red_steel)Red Steel$() and $(l:mechanics/steel#blue_steel)Blue Steel$().",
-      "title": "Utility Alloys"
+      "text": "Є й такі сплави, які не підходять для створення інструментів. А саме $(thing)Латунь$(), $(thing)Рожеве золото$(), та $(thing)Стерлінгове срібло$().$(br2)$(thing)Латунь$() є корисним сплавом для всіх видів пристосувань, включаючи $(l:mechanics/mechanical_power)Механічну силу$().$(br2)$(thing)Рожеве золото$() та $(thing)Стерлінгове срібло$() використовуються для крафту $(l:mechanics/steel#red_steel)Червоної сталі$() та $(l:mechanics/steel#blue_steel)Синьої сталі$().",
+      "title": "Корисні сплави"
     },
     {
       "type": "patchouli:spotlight",
       "anchor": "brass",
       "item": "tfc:metal/ingot/brass",
-      "title": "Brass",
+      "title": "Латунь",
       "link_recipes": false,
-      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)88 - 92 % : $(thing)мідь$()$(li)8 - 12 % : $(thing)олово$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)88 - 92 % : $(thing)Мідь$()$(li)8 - 12 % : $(thing)Цинк$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/rose_gold",
-      "title": "Rose Gold",
+      "title": "Рожеве золото",
       "link_recipes": false,
-      "text": "$(br)$(bold)Requirements:$()$(br)$(li)15 - 30 % : $(thing)Copper$()$(li)70 - 85 % : $(thing)Gold$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)15 - 30 % : $(thing)Мідь$()$(li)70 - 85 % : $(thing)Золото$()$(br2)"
     },
     {
       "type": "patchouli:spotlight",
       "item": "tfc:metal/ingot/sterling_silver",
-      "title": "Sterling Silver",
+      "title": "Стерлінгове срібло",
       "link_recipes": false,
-      "text": "$(br)$(bold)Requirements:$()$(br)$(li)20 - 40 % : $(thing)Copper$()$(li)60 - 80 % : $(thing)Silver$()$(br2)"
+      "text": "$(br)$(bold)Вимоги:$()$(br)$(li)20 - 40 % : $(thing)Мідь$()$(li)60 - 80 % : $(thing)Срібло$()$(br2)"
     }
   ],
   "read_by_default": true,

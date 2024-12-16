@@ -30,7 +30,7 @@
       "entity": "tfc:grizzly_bear",
       "scale": 0.55,
       "name": "Ведмідь грізлі",
-      "text": "Ведмідь грізлі живе в лісах помірного клімату, з $(l:the_world/climate#temperature)температурою$() від -15 дo 15°C, та принаймні 200мм $(l:the_world/climate#rainfall)опадів$()."
+      "text": "Ведмідь грізлі живе в лісах помірного клімату, з $(l:the_world/climate#temperature)температурою$() від -15 дo 15°C,$(br)  та принаймні 200мм $(l:the_world/climate#rainfall)опадів$()."
     },
     {
       "type": "patchouli:entity",
@@ -44,7 +44,7 @@
       "entity": "tfc:cougar",
       "scale": 0.6,
       "name": "Пума",
-      "text": "Пума віддає перевагу найбільш помірному клімату з $(l:the_world/climate#temperature)температурою$() від -10 до 21°C і щонайменше 150мм $(l:the_world/climate#rainfall)опадів$()."
+      "text": "Пума віддає перевагу найбільш помірному клімату з $(l:the_world/climate#temperature)температурою$() від -10 до 21°C і$(br)  щонайменше 150мм $(l:the_world/climate#rainfall)опадів$()."
     },
     {
       "type": "patchouli:entity",
@@ -58,48 +58,83 @@
       "entity": "tfc:lion",
       "scale": 0.55,
       "name": "Лев",
-      "text": "Лев оселився на рівнинах із середньою $(l:the_world/climate#temperature)температурою$() не менше 16°C, та кількістю  $(l:the_world/climate#rainfall)опадів$() від 50 до 300мм."
+      "text": "Лев оселився на рівнинах із середньою $(l:the_world/climate#temperature)температурою$() не менше 16°C, та кількістю$(br)  $(l:the_world/climate#rainfall)опадів$() від 50 до 300мм."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:tiger",
+      "scale": 0.55,
+      "name": "Тигр",
+      "text": "Тигр живе в лісах із середньою $(l:the_world/climate#temperature)температурою$() щонайменше 13°C і $(l:the_world/climate#rainfall)опадами$() понад 100мм."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:sabertooth",
       "scale": 0.6,
       "name": "Шаблезубий тигр",
-      "text": "Шаблезубий тигр живе на рівнинах із середньою $(l:the_world/climate#temperature)температурою$() вище 0°C, та $(l:the_world/climate#rainfall)опадами$() більш за 250мм."
+      "text": "Шаблезубий тигр живе на рівнинах із середньою $(l:the_world/climate#temperature)температурою$() вище 0°C, та$(br)  $(l:the_world/climate#rainfall)опадами$() більш за 250мм."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:wolf",
       "scale": 0.7,
-      "text": "Вовки зустрічаються біомах з $(l:the_world/climate#temperature)температурою$() до 22°C, та кількістю $(l:the_world/climate#rainfall)опадів$() від 150 до 420мм. Полюють зграями. Як годувати вовка, то можна його приручити."
+      "text": "Вовки зустрічаються біомах з $(l:the_world/climate#temperature)температурою$() до 22°C, та кількістю $(l:the_world/climate#rainfall)опадів$() від 150 до 420мм. Полюють зграями. Як годувати вовка, то можна приборкати."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:direwolf",
       "scale": 0.7,
-      "text": "Люті вовки з'являються у регіонах з $(l:the_world/climate#temperature)температурою$() нижче 0°C, та кількістю $(l:the_world/climate#rainfall)опадів$() від 150 до 420мм. Полюють зграями. Вони не піддаються прирученню."
+      "text": "Люті вовки з'являються у регіонах з $(l:the_world/climate#temperature)температурою$() нижче 0°C, та $(l:the_world/climate#rainfall)опадами$() 150 - 420мм. Полюють зграями. Не піддаються приборканню."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:hyena",
+      "scale": 0.7,
+      "text": "Гієна живе за будь-якої $(l:the_world/climate#temperature)температури$() вище 15°C і $(l:the_world/climate#rainfall)опадами$() 80 - 380мм. Полюють зграями. Не піддаються приборканню."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:crocodile",
+      "scale": 0.7,
+      "name": "Крокодил",
+      "text": "Крокодил живе біля річок, озер і боліт за будь-якої $(l:the_world/climate#temperature)температури$() вище 15°C і за будь-якої $(l:the_world/climate#rainfall)опади$(). Вони ведуть нічний спосіб життя і найнебезпечніші у воді."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:ocelot",
       "scale": 0.7,
-      "text": "Оцелот полює на дрібних тварин. Мешкає в будь-яких лісах з  $(l:the_world/climate#temperature)температурою$() від 15 до 30°C, та $(l:the_world/climate#rainfall)опадами$() 300 - 500мм. Оцелота можна приручити, він стане прирученим $(l:mechanics/pets)котом або кішкою$(). Оцелоти їдять сиру рибу."
-    },
-    {
-      "type": "patchouli:empty"
+      "text": "Оцелот полює на дрібних тварин. Мешкає в будь-яких лісах з  $(l:the_world/climate#temperature)температурою$() від 15 до 30°C, та $(l:the_world/climate#rainfall)опадами$() 300 - 500мм. Оцелота можна приборкати, він стане приборканим $(l:mechanics/pets)котом або кішкою$(). Оцелоти їдять сиру рибу."
     },
     {
       "type": "patchouli:text",
-      "anchor": "prey",
-      "text": "$(thing)Здобич$() - це дикі тварини. Вони бояться хижаків та гравця. Вправно тікають від небезпеки, але зазвичай не можуть дати відсіч. Деякі травоядні полюбляють перекушувати врожаєм.",
-      "title": "Здобич"
+      "anchor": "ramming_prey",
+      "text": "$(thing)Таранючі$() тварини час від часу намагатимуться атакувати сусідніх істот, включаючи гравця. Їх атаки cильні, але від них можна ухилитися. У разі нападу вони будуть таранити частіше.",
+      "title": "Таранючі тварини"
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:boar",
       "scale": 0.7,
       "name": "Дикий кабан",
-      "text": "Дикий кабан живе на рівнинах з $(l:the_world/climate#temperature)температурою$() нижче 25°C та вище -5°C, з кількістю $(l:the_world/climate#rainfall)опадів$() між 130 та 400мм."
+      "text": "Для появи оленя достатньо $(l:the_world/climate#temperature)температури$() нижче 25°C, але вище -15°C, та $(l:the_world/climate#rainfall)опадів$() від 130 до 400мм."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:moose",
+      "scale": 0.7,
+      "text": "Лосю треба $(l:the_world/climate#temperature)температура$() між -15°C та 10°C, з $(l:the_world/climate#rainfall)опадами$() від 150 до 300мм."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:wildebeest",
+      "scale": 0.7,
+      "text": "Антилопа гну водиться на відкритих рівнинах за будь-якої $(l:the_world/climate#temperature)температури$() вище 13°C і $(l:the_world/climate#rainfall)опадами$() від 90 до 380мм."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "prey",
+      "text": "$(thing)Здобич$() - це дикі тварини. Вони бояться хижаків та гравця. Вправно тікають від небезпеки, але зазвичай не можуть дати відсіч. Деякі травоядні полюбляють перекушувати врожаєм.",
+      "title": "Здобич"
     },
     {
       "type": "patchouli:entity",
@@ -113,7 +148,7 @@
       "entity": "tfc:fox",
       "scale": 0.7,
       "name": "Лисиця",
-      "text": "Лисиця їсть ягоди з кущів. Зустрічають у лісах з $(l:the_world/climate#temperature)температурою$() нижче 25°C, та кількістю $(l:the_world/climate#rainfall)опадів$() між 130 та 400мм."
+      "text": "Лисиця їсть ягоди з кущів. Зустрічають у лісах з $(l:the_world/climate#temperature)температурою$() нижче 25°C, та$(br)  $(l:the_world/climate#rainfall)опадами$() між 130 та 400мм."
     },
     {
       "type": "patchouli:entity",
@@ -123,9 +158,23 @@
     },
     {
       "type": "patchouli:entity",
-      "entity": "tfc:moose",
+      "entity": "tfc:caribou",
+      "scale": 0.6,
+      "name": "Північний олень",
+      "text": "Північний олень живе будь-де за будь-якої $(l:the_world/climate#temperature)температури$() нижче -9°C і $(l:the_world/climate#rainfall)опадів$() від 110 до$(br)  500мм."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:gazelle",
       "scale": 0.7,
-      "text": "Лосю треба $(l:the_world/climate#temperature)температура$() між -15°C та 10°C, з $(l:the_world/climate#rainfall)опадами$() від 150 до 300мм."
+      "text": "Газель живе на відкритих рівнинах за будь-якої $(l:the_world/climate#temperature)температури$() вище 12°C і $(l:the_world/climate#rainfall)опадів$() від 90 до$(br)  380мм."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "tfc:bongo",
+      "scale": 0.9,
+      "name": "Бонго",
+      "text": "Бонго живе в лісах за будь-якої $(l:the_world/climate#temperature)температури$() вище 15°C і $(l:the_world/climate#rainfall)опадів$() від 230 до 500мм."
     },
     {
       "type": "patchouli:entity",
@@ -146,6 +195,13 @@
       "text": "Індичці треба $(l:the_world/climate#temperature)температура$() від 0°C до 17°C, та $(l:the_world/climate#rainfall)опади$() між 250 та 450мм."
     },
     {
+      "type": "patchouli:entity",
+      "entity": "tfc:peafowl",
+      "scale": 0.8,
+      "name": "Павич",
+      "text": "Павич живе в лісах за будь-якої $(l:the_world/climate#temperature)температури$() вище 14°C і $(l:the_world/climate#rainfall)опадів$() від 190 до 500 мм."
+    },
+    {
       "type": "patchouli:empty"
     },
     {
@@ -156,14 +212,14 @@
     },
     {
       "type": "patchouli:text",
-      "text": "$(thing)Берегові тварини$() живуть лише на морських берегах і проводять частину свого дня у воді, а частину гуляють по пляжу. Це цікаві істоти, які йдуть за гравцем, але їх неможливо приручити."
+      "text": "$(thing)Берегові тварини$() живуть лише на морських берегах і проводять частину свого дня у воді, а частину гуляють по пляжу. Це цікаві істоти, які йдуть за гравцем, але їх неможливо приборкати."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:penguin",
       "scale": 0.7,
       "name": "Пінгвін",
-      "text": "Пінгвін обожнює найхолодніші пляжі, з $(l:the_world/climate#temperature)температурою$() нижче -14°C та кількістю $(l:the_world/climate#rainfall)опадів$() не менше 75мм."
+      "text": "Пінгвін обожнює найхолодніші пляжі, з $(l:the_world/climate#temperature)температурою$() нижче -14°C та кількістю $(l:the_world/climate#rainfall)опадів$() не$(br)  менше 75мм."
     },
     {
       "type": "patchouli:entity",
@@ -196,7 +252,7 @@
       "entity": "tfc:jellyfish",
       "scale": 0.7,
       "name": "Медуза",
-      "text": "Медузи живуть у теплих океанах,  $(l:the_world/climate#temperature)температурою$() не менш ніж 18°C."
+      "text": "Медузи живуть у теплих океанах, $(l:the_world/climate#temperature)температурою$() не менш ніж 18°C."
     },
     {
       "type": "patchouli:entity",
@@ -210,14 +266,14 @@
       "entity": "tfc:salmon",
       "scale": 0.7,
       "name": "Лосось",
-      "text": "Лосось живе у річці або в озері з  $(l:the_world/climate#temperature)температурою$() вище -5°C."
+      "text": "Лосось живе у річці або в озері з $(l:the_world/climate#temperature)температурою$() вище -5°C."
     },
     {
       "type": "patchouli:entity",
       "entity": "tfc:bluegill",
       "scale": 0.7,
       "name": "Синьозябровий окунь",
-      "text": "Синьозябровий окунь мешкає в річках та озерах з $(l:the_world/climate#temperature)температурою$() між -10°C та 26°C."
+      "text": "Синьозябровий окунь мешкає в річках та озерах з $(l:the_world/climate#temperature)температурою$() між -10°C та$(br)  26°C."
     },
     {
       "type": "patchouli:text",
@@ -244,7 +300,7 @@
       "entity": "tfc:crayfish",
       "scale": 0.7,
       "name": "Раки",
-      "text": "Рак живе у річці, або озері. Йому потрібна $(l:the_world/climate#temperature)температура$() більша за 5°C та кількість $(l:the_world/climate#rainfall)опадів$() не менше 125мм."
+      "text": "Рак живе у річці, або озері. Йому потрібна $(l:the_world/climate#temperature)температура$() більша за 5°C та кількість$(br)  $(l:the_world/climate#rainfall)опадів$() не менше 125мм."
     },
     {
       "type": "patchouli:entity",
@@ -270,7 +326,7 @@
       "entity": "tfc:dolphin",
       "scale": 0.4,
       "name": "Дельфін",
-      "text": "Дельфіни живуть у глибоких океанах з $(l:the_world/climate#temperature)температурою$() не нижче 10°C та кількістю $(l:the_world/climate#rainfall)опадів$() не менш ніж 200мм."
+      "text": "Дельфіни живуть у глибоких океанах з $(l:the_world/climate#temperature)температурою$() не нижче 10°C та кількістю $(l:the_world/climate#rainfall)опадів$()$(br)  не менш ніж 200мм."
     },
     {
       "type": "patchouli:entity",
