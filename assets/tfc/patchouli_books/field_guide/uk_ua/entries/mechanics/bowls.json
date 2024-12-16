@@ -1,0 +1,47 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "name": "Миски",
+  "category": "tfc:mechanics",
+  "icon": "tfc:ceramic/bowl",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Миски$() - це універсальний інструмент, який можна використовувати для приготування $(l:mechanics/salad)Салатів$(), приготування $(l:mechanics/pot)Супів$(), $(l:mechanics/decay#salting)Соління$() м’яса, або нанесення $(thing)Порошку$() на $(l:mechanics/glassworking_applications#coloring)Скло$(), щоб змінити колір отриманого скла.$(br2)Миски можна виготовити як з $(thing)Кераміки$(), виколовши миску з глини, так і обпаливши їх."
+    },
+    {
+      "type": "tfc:knapping_recipe",
+      "recipe": "tfc:clay_knapping/bowl_4",
+      "text": "Одним оббиванням можна виготовити кілька необпалених мисок."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/bowl",
+      "title": "Дерев'яні миски",
+      "text": "Миски також можна зробити з дерева, використовуючи в крафті $(thing)Клей$().$(br2)$(thing)Клей$() можна зробити, замочивши $(thing)Кісткове борошно$() в діжці з $(l:mechanics/barrels#limewater)Вапняною водою$()."
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/glue",
+      "text": "Миски також можна поставити на землю, як блоки. Коли їх розміщують, їх можна наповнювати будь-яким типом $(thing)Порошку$() - результатом подрібнення руд, мінералів або дорогоцінних каменів у $(l:mechanics/quern)Млині$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:powders",
+      "title": "Порошки",
+      "link_recipes": false,
+      "text": "Миска для порошку може вмістити до 16 порошків. Щоб вставити елементи, натисніть $(item)$(k:key.use)$(), тримаючи порошок. Щоб отримати елементи, натисніть $(item)$(k:key.use)$() порожньою рукою.$(br2)$(item)$(k:key.sneak)$() дозволяє витягти весь вміст миски."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:powder/salt",
+      "link_recipes": false,
+      "text": "Якщо в мисці є сіль, клацання несолоним сирим м’ясом посолить м’ясо. Це те саме, що скрафтити м’ясо за допомогою солі у вашому інвентарі."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:ceramic/unfired_bowl": 1,
+    "tfc:ceramic/bowl": 1,
+    "minecraft:bowl": 2
+  }
+}

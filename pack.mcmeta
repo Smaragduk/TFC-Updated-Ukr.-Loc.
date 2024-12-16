@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": {
+      "translate": "minecraft.resource_pack.smars_mod_ukr_translate",
+      "fallback": "Версія §60.1.1§r\nЗробив §aSmaragduk§r"
+    },
+    "supported_formats": [14, 32]
+  }
+}
