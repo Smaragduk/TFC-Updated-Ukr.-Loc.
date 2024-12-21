@@ -1,5 +1,4 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "name": "Хліб",
   "category": "tfc:mechanics",
   "icon": "tfc:textures/item/food/barley_bread.png",
@@ -22,7 +21,7 @@
     {
       "type": "tfc:quern_recipe",
       "recipe": "tfc:quern/oat_grain",
-      "text": "Зерно можна змолоти у $(l:mechanics/quern)млині$(), та отримати борошно."
+      "text": "Зерно можна змолоти в $(l:mechanics/quern)Жорні$(), та отримати борошно."
     },
     {
       "type": "patchouli:crafting",

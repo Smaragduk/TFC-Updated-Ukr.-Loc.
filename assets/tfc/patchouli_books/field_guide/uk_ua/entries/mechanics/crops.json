@@ -1,6 +1,5 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
-  "name": "Городина",
+  "name": "Культури",
   "category": "tfc:mechanics",
   "icon": "tfc:textures/item/food/wheat.png",
   "pages": [
@@ -29,12 +28,12 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Усі культури потрібно висаджувати на городніх грядках. Деякі культури мають додаткові вимоги, такі як перезволоження або вимагають палиці для росту.$(br2)Культурам не обов'язкові додаткові $(thing)поживні речовини$()для росту, але вони добре допомагають. Є три види поживних речовин: $(b)азот$(), $(6)фосфор$(), та $(d)калій$(). У кожної культури є улюблена поживна речовина.",
+      "text": "Усі культури потрібно висаджувати на городніх грядках. Деякі культури мають додаткові вимоги, такі як перезволоження або вимагають палиці для росту.$(br2)Культурам не обов'язкові додаткові $(thing)поживні речовини$() для росту, але вони добре допомагають. Є три види поживних речовин: $(b)азот$(), $(6)фосфор$(), та $(d)калій$(). У кожної культури є улюблена поживна речовина.",
       "title": "Вирощування культур"
     },
     {
       "type": "patchouli:text",
-      "text": "Consuming its favorite nutrient causes a crop to grow faster, and improves the yield of the crop at harvest time. That means that crops that consumed more nutrients drop more food when broken! Consuming a nutrient also has the effect of replenishing the other nutrients around it a small amount.$(br2)The next several pages list all the crops present in TFC"
+      "text": "Споживання улюбленої поживної речовини спричиняє швидший ріст врожаю та покращує його кількість під час збору. Це означає, що культури, які спожили більше поживних речовин, дають більше їжі при зборі! Споживання поживної речовини також має ефект часткового відновлення інших поживних речовин навколо неї.$(br2)Наступні кілька сторінок містять список усіх культур, присутніх у TFC"
     },
     {
       "type": "patchouli:text",
@@ -917,7 +916,7 @@
     {
       "type": "patchouli:text",
       "anchor": "beet",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -5 - 20 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 18 - 85 %$(br)$(bold)Поживні речовини$(): калій$(br2)Буряк є одноблочною рослиною. Насіння буряків можна висаджувати на грядках, воно дасть продукт $(thing)буряк$() та $(thing)насіння буряка$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -5 - 20 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 18 - 85 %$(br)$(bold)Поживні речовини$(): калій$(br2)Буряк є одноблоковою культурою. Насіння буряків можна висаджувати на грядках, воно дасть продукт $(thing)буряк$() та $(thing)насіння буряка$().",
       "title": "Буряк"
     },
     {
@@ -1031,7 +1030,7 @@
     {
       "type": "patchouli:text",
       "anchor": "cabbage",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -10 - 27 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 15 - 65 %$(br)$(bold)Поживні речовини$(): азот$(br2)Капуста є одноблочною рослиною. Насіння капусти можна висаджувати на грядках, воно дасть продукт $(thing)капуста$() та $(thing)насіння капусти$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -10 - 27 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 15 - 65 %$(br)$(bold)Поживні речовини$(): азот$(br2)Капуста є одноблоковою культурою. Насіння капусти можна висаджувати на грядках, воно дасть продукт $(thing)капуста$() та $(thing)насіння капусти$().",
       "title": "Капуста"
     },
     {
@@ -1145,7 +1144,7 @@
     {
       "type": "patchouli:text",
       "anchor": "carrot",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 3 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Морква є одноблочною рослиною. Насіння моркви можна висаджувати на грядках, воно дасть продукт $(thing)морква$() та $(thing)насіння моркви$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 3 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Морква є одноблоковою культурою. Насіння моркви можна висаджувати на грядках, воно дасть продукт $(thing)морква$() та $(thing)насіння моркви$().",
       "title": "Морква"
     },
     {
@@ -1242,7 +1241,7 @@
     {
       "type": "patchouli:text",
       "anchor": "garlic",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -20 - 18 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 15 - 75 %$(br)$(bold)Поживні речовини$(): азот$(br2)Часник є одноблочною рослиною. Насіння часнику можна висаджувати на грядках, воно дасть продукт $(thing)часник$() та $(thing)насіння часнику$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -20 - 18 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 15 - 75 %$(br)$(bold)Поживні речовини$(): азот$(br2)Часник є одноблоковою культурою. Насіння часнику можна висаджувати на грядках, воно дасть продукт $(thing)часник$() та $(thing)насіння часнику$().",
       "title": "Часник"
     },
     {
@@ -1339,7 +1338,7 @@
     {
       "type": "patchouli:text",
       "anchor": "green_bean",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 2 - 35 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 38 - 100 %$(br)$(bold)Поживні речовини$(): азот$(br2)Горох — це культура, що піднімається заввишки у два блока. Насіння гороху можна висаджувати на грядках, воно виросте на два блоки заввишки, якщо є палиця, і дасть продукт $(thing)горох$() та $(thing)насіння гороху$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 2 - 35 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 38 - 100 %$(br)$(bold)Поживні речовини$(): азот$(br2)Горох - це культура, що піднімається заввишки у два блока. Насіння гороху можна висаджувати на грядках, воно виросте на два блоки заввишки, якщо є палиця, і дасть продукт $(thing)горох$() та $(thing)насіння гороху$().",
       "title": "Горох"
     },
     {
@@ -1519,7 +1518,7 @@
     {
       "type": "patchouli:text",
       "anchor": "potato",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -1 - 37 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 50 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Картопля є одноблочною рослиною. Насіння картоплі можна висаджувати на грядках, воно дасть продукт $(thing)картопля$() та $(thing)насіння картоплі$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): -1 - 37 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 50 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Картопля є одноблоковою культурою. Насіння картоплі можна висаджувати на грядках, воно дасть продукт $(thing)картопля$() та $(thing)насіння картоплі$().",
       "title": "Картопля"
     },
     {
@@ -1650,7 +1649,7 @@
     {
       "type": "patchouli:text",
       "anchor": "pumpkin",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 0 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 30 - 80 %$(br)$(bold)Поживні речовини$(): фосфор$(br2)Гарбуз є повзучою культурою. Насіння гарбуза можна висаджувати на грядці і отримати до двох блоків $(thing)гарбуза$() на землі поруч із грядкою. Якщо гарбузові блоки зібрати, а рослина знову дозріє, вона зможе виростити більше гарбузів. З гарбуза можна виготовити $(l:mechanics/lighting#jack_o_lanterns)світильник Джека$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 0 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 30 - 80 %$(br)$(bold)Поживні речовини$(): фосфор$(br2)Гарбуз є повзучою культурою. Насіння гарбуза можна висаджувати на грядці і отримати до двох блоків $(thing)гарбуза$() на землі поруч із грядкою. Якщо гарбузові блоки зібрати, а рослина знову дозріє, вона зможе виростити більше гарбузів. З гарбуза можна виготовити $(l:mechanics/lighting#jack_o_lanterns)Ліхтар Джека$().",
       "title": "Гарбуз"
     },
     {
@@ -1994,8 +1993,8 @@
     {
       "type": "patchouli:text",
       "anchor": "red_bell_pepper",
-      "text": "$(bold)$(l:the_world/climate#temperature)Temperature$(): 16 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Hydration$(): 25 - 60 %$(br)$(bold)Nutrient$(): Potassium$(br2)Red Bell Peppers are a pickable crop. When they are near mature, they can be harvested with $(item)$(k:key.use)$() to obtain Green Bell Peppers. Harvesting with $(item)$(k:key.use)$() allows the plant to grow more peppers in the future rather than destroying the plant.",
-      "title": "Red Bell Peppers"
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 16 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 60 %$(br)$(bold)Поживні речовини$(): калій$(br2)Червоний болгарський перець є збираною культурою. Коли він майже дозрів, його можна зібрати за допомогою $(item)$(k:key.use)$() для отримання зеленого болгарського перцю. Збирання за допомогою $(item)$(k:key.use)$() дозволяє рослині вирощувати більше перців у майбутньому, не знищуючи її.",
+      "title": "Червоний болг. перець"
     },
     {
       "type": "tfc:multimultiblock",
@@ -2125,8 +2124,8 @@
     {
       "type": "patchouli:text",
       "anchor": "yellow_bell_pepper",
-      "text": "$(bold)$(l:the_world/climate#temperature)Temperature$(): 16 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Hydration$(): 25 - 60 %$(br)$(bold)Nutrient$(): Potassium$(br2)Yellow Bell Peppers are a pickable crop. When they are near mature, they can be harvested with $(item)$(k:key.use)$() to obtain Green Bell Peppers. Harvesting with $(item)$(k:key.use)$() allows the plant to grow more peppers in the future rather than destroying the plant.",
-      "title": "Yellow Bell Peppers"
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 16 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 60 %$(br)$(bold)Поживні речовини$(): калій$(br2)Жовтий болгарський перець є збираною культурою. Коли він майже дозрів, його можна зібрати за допомогою $(item)$(k:key.use)$() для отримання зеленого болгарського перцю. Збирання за допомогою $(item)$(k:key.use)$() дозволяє рослині вирощувати більше перців у майбутньому, не знищуючи її.",
+      "title": "Жовтий болгар. перець"
     },
     {
       "type": "tfc:multimultiblock",
@@ -2256,7 +2255,7 @@
     {
       "type": "patchouli:text",
       "anchor": "onion",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 0 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 90 %$(br)$(bold)Поживні речовини$(): азот$(br2)Цибуля є одноблочною рослиною. Насіння цибулі можна висаджувати на грядках, воно дасть продукт $(thing)цибуля$() та $(thing)насіння цибулі$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 0 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 25 - 90 %$(br)$(bold)Поживні речовини$(): азот$(br2)Цибуля є одноблоковою культурою. Насіння цибулі можна висаджувати на грядках, воно дасть продукт $(thing)цибуля$() та $(thing)насіння цибулі$().",
       "title": "Цибуля"
     },
     {
@@ -2387,7 +2386,7 @@
     {
       "type": "patchouli:text",
       "anchor": "soybean",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 8 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 40 - 100 %$(br)$(bold)Поживні речовини$(): азот$(br2)Соєві боби є одноблочною рослиною. Насіння соєвих бобів можна висаджувати на грядках, воно дасть продукт $(thing)соєві боби$() та $(thing)насіння соєвих бобів$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 8 - 30 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 40 - 100 %$(br)$(bold)Поживні речовини$(): азот$(br2)Соєві боби є одноблоковою культурою. Насіння соєвих бобів можна висаджувати на грядках, воно дасть продукт $(thing)соєві боби$() та $(thing)насіння соєвих бобів$().",
       "title": "Соєві боби"
     },
     {
@@ -2518,7 +2517,7 @@
     {
       "type": "patchouli:text",
       "anchor": "squash",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 5 - 33 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 23 - 95 %$(br)$(bold)Поживні речовини$(): калій$(br2)Кабачок є одноблочною рослиною. Насіння кабачка можна висаджувати на грядках, воно дасть продукт $(thing)кабачок$() та $(thing)насіння кабачка$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 5 - 33 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 23 - 95 %$(br)$(bold)Поживні речовини$(): калій$(br2)Кабачок є одноблоковою культурою. Насіння кабачка можна висаджувати на грядках, воно дасть продукт $(thing)кабачок$() та $(thing)насіння кабачка$().",
       "title": "Кабачок"
     },
     {
@@ -2666,7 +2665,7 @@
     {
       "type": "patchouli:text",
       "anchor": "sugarcane",
-      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 12 - 38 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 40 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Цукрова тростина — це культура заввишки два блоки. Насіння цукрової тростини можна висаджувати на грядці, воно виросте на два блоки заввишки та дасть продукт $(thing)цукрова тростина$() та $(thing)насіння цукрової тростини$(). З цукрової тростини можна виготовити $(thing)цукор$().",
+      "text": "$(bold)$(l:the_world/climate#temperature)Температура$(): 12 - 38 °C$(br)$(bold)$(l:mechanics/hydration)Вологість$(): 40 - 100 %$(br)$(bold)Поживні речовини$(): калій$(br2)Цукрова тростина - це культура заввишки два блоки. Насіння цукрової тростини можна висаджувати на грядці, воно виросте на два блоки заввишки та дасть продукт $(thing)цукрова тростина$() та $(thing)насіння цукрової тростини$(). З цукрової тростини можна виготовити $(thing)цукор$().",
       "title": "Цукрова тростина"
     },
     {

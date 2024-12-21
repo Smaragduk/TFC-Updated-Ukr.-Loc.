@@ -1,16 +1,15 @@
 {
-  "__comment__": "This file was automatically created by mcresources",
   "name": "Мийний жолоб",
   "category": "tfc:mechanics",
   "icon": "tfc:textures/gui/book/icons/sluice.png",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "The $(thing)Sluice$() is a device that is used to process $(thing)Ore Deposits$(), producing the same results that $(l:mechanics/panning)Panning$() does, with different probabilities."
+      "text": "$(thing)Мийний жолоб$() - це пристрій, який використовується для обробки $(thing)Рудних родовищ$(), даючи ті самі результати, що й $(l:mechanics/panning)Просіювання$(), але з іншими ймовірностями."
     },
     {
       "type": "patchouli:crafting",
-      "recipe": "tfc:crafting/wood/sequoia_sluice",
+      "recipe": "tfc:crafting/wood/pine_sluice",
       "text": "Мийний жолоб виготовляється з паличок та дошок"
     },
     {
@@ -39,7 +38,7 @@
     },
     {
       "type": "patchouli:text",
-      "text": "Промиванням можна здобути: $(thing)руду$(), $(thing)пухке каміння$(), та $(l:mechanics/gems)дорогоцінне каміння$(). Ймовірність така:$(br)$(li)Руда: 55%%$(li)Пухке каміння: 22.5%%$(li)Дорогоцінне каміння: 0.9%%$()Щодо дорогоцінного каміння, то різні види каменю промивають з відповідних гірських порід.",
+      "text": "Промиванням можна здобути: $(thing)Руду$(), $(thing)Камінці$() та $(l:mechanics/gems)Коштовне каміння$().$(br)Ймовірність така:$(br)$(li)Руда: 55%$(li)Камінці: 22.5%$(li)Коштовне каміння: 0.9%$(br2)Кожен тип породи має певне коштовне каміння, з якої його можна видобути, і яке є унікальним для цього типу породи.",
       "title": "Результати промивання"
     }
   ],

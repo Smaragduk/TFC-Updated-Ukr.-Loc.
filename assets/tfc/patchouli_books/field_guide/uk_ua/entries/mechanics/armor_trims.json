@@ -1,0 +1,17 @@
+{
+  "name": "Оздоблення броні",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:rib_armor_trim_smithing_template",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Оздоблення броні виготовляється з $(thing)Оздоблювального матеріалу$() тa $(l:mechanics/sewing_table)Ковальського шаблону$(). У TFC всі коштовні камені разом із стерлінговим сріблом, золотом, рожевим золотом і бісмутом можна використовувати як оздоблювальний матеріал. Оздоблення броні є чисто косметичним."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/vanilla/smithing_table",
+      "text": "Ковальський стіл можна використовувати для оздоблення TFC броні."
+    }
+  ],
+  "read_by_default": true
+}
