@@ -1,0 +1,30 @@
+{
+  "name": "Канапки",
+  "category": "tfc:mechanics",
+  "icon": "tfc:textures/item/food/barley_bread_sandwich.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Канапка$() - це страва, що дозволяє об'єднати два шматка $(l:mechanics/bread)Хліба$() з трьома іншими продуктами, такими як $(l:mechanics/bread)Овочі$(), $(thing)Смажене м'ясо$(), та $(l:mechanics/dairy)Сир$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/wheat_sandwich",
+      "title": "Рецепт канапки",
+      "text": "Канапки готуються у $(thing)Верстаку$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Поживні речовини, вода та насичення харчових продуктів об'єднуються у поживний вміст канапки. Хліб дає 50% від його насичення, а інші харчові інгредієнти насичують на 80%. Інгредієнти канапки повинні бути не зіпсованими. Але ж канапка почне свій термін придатності як новий харчовий продукт зі своїм терміном придатності."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:food/barley_bread_sandwich": 0,
+    "tfc:food/maize_bread_sandwich": 0,
+    "tfc:food/oat_bread_sandwich": 0,
+    "tfc:food/rice_bread_sandwich": 0,
+    "tfc:food/rye_bread_sandwich": 0,
+    "tfc:food/wheat_bread_sandwich": 0
+  }
+}

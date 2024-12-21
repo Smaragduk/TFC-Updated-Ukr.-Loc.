@@ -1,0 +1,87 @@
+{
+  "name": "Ліхтарі",
+  "category": "tfc:mechanics",
+  "icon": "tfc:metal/lamp/bismuth_bronze",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ліхтарі є довготривалим джерелом світла. Вони працюють на рідкому паливі. Ліхтарі зберігають вміст палива при руйнуванні. Натисніть з відром у руках, $(item)$(k:key.use)$() по ліхтарю, щоб додати в нього палива. Потім його можна запалити $(thing)Запальничкою$() чи будь-чим, що може запалювати вогонь. $(thing)Оливкова олія$() та $(thing)Топлений жир$() є паливом для ліхтаря. Постріл стрілою в запалений ліхтар може спричинити пожежу."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "Y"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:metal/chain/copper[axis=y]",
+          "Y": "tfc:metal/lamp/copper[hanging=true,lit=true]"
+        }
+      },
+      "name": "Ліхтарі",
+      "text": "Висячий на ланцюжку запалений ліхтар.",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/metal/lamp/copper",
+      "text": "Ліхтарі виковуються на $(l:mechanics/anvils)Ковадлі$() та їх створення завершується об'єднанням зі $(l:mechanics/glassworking_applications#lamp_glass)Склом для ліхтаря$()."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "anchor": "olives",
+      "recipe": "tfc:quern/olive",
+      "text": "Паливом звичайного ліхтаря є $(thing)Оливкова олія$(). Першим кроком її виробництва є виготовлення оливкової пасти. Її можна отримати жорном."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/jute_net",
+      "text": "Також знадобиться джутова сітка."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Відваріть $(thing)Оливкову пасту$() з $(thing)Водою$() у $(l:mechanics/pot)Казані$(), та отримайте $(thing)Оливкову олійну воду$(). Запечатайте цю воду в $(l:mechanics/barrels)Діжці$() разом з $(thing)Джутовою сіткою$() для отримання $(thing)Оливкової олії$(). Оливкова олія горить 8 годин у грі на кожну одиницю палива."
+    },
+    {
+      "type": "patchouli:text",
+      "anchor": "tallow",
+      "text": "Також, у якості палива можна використовувати $(thing)Топлений жир$(). Треба відварити 5 шматків $(thing)Сала$() у $(l:mechanics/pot)Казані$() з водою. Топлений жир горить менше, 2 години у грі на одиницю. З топленого жиру також можна виготовляти $(l:mechanics/lighting#candles)Свічки$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:metal/lamp/blue_steel[lit=true]"
+        }
+      },
+      "name": "Лавовий ліхтар",
+      "text": "Лава буде світити вічно, але її можна утримувати лише у ліхтарі з $(l:mechanics/steel#blue_steel)Синьої сталі$().",
+      "enable_visualize": false
+    },
+    {
+      "type": "tfc:anvil_recipe",
+      "recipe": "tfc:anvil/black_steel_chain",
+      "text": "$(thing)Ланцюг$() - це чудовий пристрій, щоб повісити ліхтар. Ланцюг можна виготовити на $(l:mechanics/anvils)Ковадлі$()."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tag:tfc:lamps": 1
+  }
+}

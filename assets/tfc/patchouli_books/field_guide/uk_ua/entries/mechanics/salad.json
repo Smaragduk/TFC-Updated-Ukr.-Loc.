@@ -1,0 +1,26 @@
+{
+  "name": "Салати",
+  "category": "tfc:mechanics",
+  "icon": "tfc:textures/item/food/protein_salad.png",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Салати$() - це страва, яку готують у $(thing)Мисці$() з до п'яти $(thing)Фруктів$(), $(thing)Овочів$() або $(thing)Смаженого м'яса$().$(br2)Салати - одна з найпростіших страв, які можна приготувати, і для цього потрібна лише $(l:mechanics/bowls)Миска$(). Спочатку візьміть $(thing)Миску$() та натисніть $(item)$(k:key.use)$(), утримуючи $(item)$(k:key.sneak)$(). Це відкриє екран приготування салату."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tag:tfc:salads",
+      "title": "",
+      "link_recipes": false,
+      "text": "У верхні слоти можна додати до п'яти інгредієнтів. $(thing)Миски$() можна розмістити в нижньому лівому слоті. Коли все буде готово, салат можна забрати з нижнього правого слоту."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:food/fruit_salad": 0,
+    "tfc:food/dairy_salad": 0,
+    "tfc:food/vegetables_salad": 0,
+    "tfc:food/protein_salad": 0,
+    "tfc:food/grain_salad": 0
+  }
+}

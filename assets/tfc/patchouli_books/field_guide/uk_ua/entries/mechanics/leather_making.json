@@ -1,0 +1,75 @@
+{
+  "name": "Обробка шкіри",
+  "category": "tfc:mechanics",
+  "icon": "minecraft:leather",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Шкіра$() - це міцний матеріал, виготовлений зі шкур тварин. Вона потрібна для крафту $(l:mechanics/armor)Броні$(), $(thing)Сідла$() або $(l:mechanics/bellows)Міх$(). $()Свіжі шкури$() повинні пройти кілька етапів обробки: $(l:mechanics/leather_making#soaking)просочування$(), $(l:mechanics/leather_making#scraping)вишкрібання$(), $(l:mechanics/leather_making#preparing)підготовлення$(), and $(l:mechanics/leather_making#tanning)дублення$(), щоб перетворити їх на $(thing)Шкіру$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "tfc:small_raw_hide,tfc:medium_raw_hide,tfc:large_raw_hide",
+      "title": "Свіжа шкура",
+      "link_recipes": true,
+      "text": "Щоб почати, вам спочатку потрібно буде отримати $(thing)Свіжу шкуру$(), яка випадає після вбивства багатьох різних $(l:the_world/wild_animals)Тварин$(). З різних тварин випадає $(thing)Свіжа шкура$() різного розміру."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Для обробки шкіри потрібні кілька матеріалів і інструментів. Вам знадобляться:$(br)$(li)$(l:mechanics/barrels#limewater)Вапняна вода$() - розчин $(l:mechanics/flux)Флюсу$() в $(thing)Воді$()$(li)Вода$(li)$(l:mechanics/barrels#tannin)Танін$() - кислий розчин, виготовлений з кори деяких дерев.$(li)$(thing)Свіжі шкури$()$(br2)Маючи все це під рукою, ви готові розпочати процес обробки шкіри."
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "soaking",
+      "recipe": "tfc:barrel/medium_soaked_hide",
+      "text": "По-перше, свіжі шкури треба $(thing)просочити$(), щоб очистити їх і розм’якшити небажані матеріали перед обробкою. Це можна зробити, запечатавши $(thing)Свіжу шкуру$() в $(l:mechanics/barrels#limewater)Діжці з вапняною водою$() щонайменше на вісім годин."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "scraping",
+      "item": "tfc:small_scraped_hide,tfc:medium_scraped_hide,tfc:large_scraped_hide",
+      "title": "Вишкрібання",
+      "link_recipes": true,
+      "text": "Після просочування, $(thing)Просочені шкури$() потрібно вишкребти, щоб видалити надлишки матеріалу. Щоб вишкребти шкури, покладіть шкуру на $(thing)Колоду$(). За допомогою $(thing)Ножа$(), $(item)$(k:key.use)$() по кожній частині шкури і вона почне змінювати текстуру."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/soaked_hide_1.png",
+        "tfc:textures/gui/book/tutorial/soaked_hide_2.png",
+        "tfc:textures/gui/book/tutorial/soaked_hide_3.png",
+        "tfc:textures/gui/book/tutorial/soaked_hide_4.png"
+      ],
+      "text": "Після того, як шкура буде повністю вишкрябана, $(thing)Поскоб-$(br)лену шкуру$() можна підібрати.",
+      "border": true
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "preparing",
+      "recipe": "tfc:barrel/medium_prepared_hide",
+      "text": "Після зіскрібання $(thing)Поскоблені шкури$() треба запечатати в $(l:mechanics/barrels)Діжці$() з $(thing)Водою$() щонайменше на 8 годин для остаточного очищення перед дубленням."
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "tanning",
+      "recipe": "tfc:barrel/medium_leather",
+      "text": "Нарешті, $(thing)Підготовлені шкури$() потрібно запечатати в $(l:mechanics/barrels#tannin)Діжці з таніном$(), що є кислотним хімічним розчином, яка допомагає перетворювати шкуру на $(thing)Шкіру$(). Після ще восьми годин ви можете вийняти $(thing)Шкіру$() з діжки."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:small_raw_hide": 1,
+    "tfc:medium_raw_hide": 1,
+    "tfc:large_raw_hide": 1,
+    "tfc:small_soaked_hide": 3,
+    "tfc:medium_soaked_hide": 3,
+    "tfc:large_soaked_hide": 3,
+    "tfc:small_scraped_hide": 4,
+    "tfc:medium_scraped_hide": 4,
+    "tfc:large_scraped_hide": 4,
+    "tfc:small_prepared_hide": 6,
+    "tfc:medium_prepared_hide": 6,
+    "tfc:large_prepared_hide": 6,
+    "minecraft:leather": 7
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Джерела світла",
+  "category": "tfc:mechanics",
+  "icon": "tfc:candle",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Існує кілька способів випромінювання світла в TFC. Одним із способів є використання $(l:mechanics/lamps)Ліхтарів$(), але вони потребують палива. Для деяких джерел світла потрібна лише іскра."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(br) 1. $(l:mechanics/lighting#torches)Смолоскипи$()$(br) 2. $(l:mechanics/lighting#candles)Свічки$()$(br) 3. $(l:mechanics/lighting#jack_o_lanterns)Ліхтарі Джека$()",
+      "title": "Зміст"
+    },
+    {
+      "type": "tfc:heat_recipe",
+      "anchor": "torches",
+      "recipe": "tfc:heating/torch_from_stick",
+      "text": "Смолоскипи можна виготовити шляхом нагрівання палиць або пучків палиць у $(l:getting_started/firepit)Багатті$() або іншому нагрівальному пристрої."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Смолоскипи палають 3 дні, а потім стають $(thing)Згаслими смолоскипами$(), які можна знову запалити, клацнувши по них смолоскипом або використавши по них інструмент для розпалювання вогню. Палицями також можна клацати по смолоскипах, щоб запалити їх. Смолоскипи, опущені у воду, перетворюються на деревний попіл і палиці $(thing)Деревну золу$() та $(thing)Палиці$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "candles",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:candle[candles=3,lit=true]"
+        }
+      },
+      "name": "Свічки",
+      "text": "Свічки палають 11 днів і їх також можна запалювати повторно.",
+      "enable_visualize": false
+    },
+    {
+      "type": "tfc:sealed_barrel_recipe",
+      "recipe": "tfc:barrel/candle",
+      "text": "Свічки можна зробити, запечатавши $(thing)Нитку$() в $(l:mechanics/barrels)Діжці$() з $(l:mechanics/lamps#tallow)Топленим жиром$()."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "anchor": "jack_o_lanterns",
+      "multiblock": {
+        "pattern": [
+          [
+            "X"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "mapping": {
+          "X": "tfc:jack_o_lantern"
+        }
+      },
+      "name": "Ліхтар Джека",
+      "text": "Працюючий ліхтар Джека",
+      "enable_visualize": false
+    },
+    {
+      "type": "patchouli:text",
+      "name": "Ліхтарі Джека",
+      "text": "Ліхтарі Джека - це освітлена версія $(thing)Вирізаних гарбузів$(), які світять протягом 4.5 днів, після чого перетворюється назад на вирізаний гарбуз.$(br2)$(thing)Вирізані гарбузи$() створюються кліком $(item)$(k:key.use)$() $(thing)Ножицями$() або $(thing)Ножем$() по свіжому $(l:mechanics/crops#pumpkin)Гарбузу$(). Вирізані гарбузи не гниють і їх також можна носити на голові."
+    }
+  ],
+  "read_by_default": true,
+  "extra_recipe_mappings": {
+    "tfc:candle": 4,
+    "tag:tfc:colored_candles": 4,
+    "tfc:jack_o_lantern": 6
+  }
+}

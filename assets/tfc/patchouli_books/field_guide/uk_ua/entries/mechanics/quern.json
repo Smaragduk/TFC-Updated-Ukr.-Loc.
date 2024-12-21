@@ -1,0 +1,80 @@
+{
+  "name": "Жорно",
+  "category": "tfc:mechanics",
+  "icon": "tfc:quern",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Жорно$() - це пристрій для перемелення предметів. Він може виготовляти порошки, $(l:mechanics/dye)барвники$() та деякі інші предмети. Його зібрано із $(thing)Основи$() (нижнього жорна) та $(thing)Каменю з ручкою$() (верхнього жорна).$(br2)Жорно також можна підключити до мережі $(l:mechanics/mechanical_power#quern)Механічної енергії$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/quern",
+      "text": "Нижнє жорно виготовляється з трьох $(thing)Полірованих блоків$() каміння, та трьох будь-яких інших $(thing)Блоків каміння$(). Це є основою жорна."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfc:crafting/handstone",
+      "text": "$(thing)Верхнє жорно$() є інструментом. Як і будь-який інструмент, воно зазнає пошкоджень при роботі."
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/quern_empty.png"
+      ],
+      "text": "Наведіть курсор на верх нижнього жорна, та $(item)$(k:key.use)$() для розміщення на ньому верхнього",
+      "top_buffer": 1,
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/quern_add_item.png"
+      ],
+      "text": "Використовуй $(item)$(k:key.use)$() на верхній частині (де отвір), аби додати предмети, що треба перемолоти.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/quern_handle.png"
+      ],
+      "text": "Використовуй $(item)$(k:key.use)$() на ручці верхнього жорна, для процесу перемелення.",
+      "border": true
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "tfc:textures/gui/book/tutorial/quern_result.png"
+      ],
+      "text": "Результат перемелення повинен з'явитись на основі жорна. $(item)$(k:key.use)$() будь-де по нижньому жорну аби забрати готовий продукт.",
+      "border": true
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/sulfur",
+      "text": "Жорно використовується для перемелення руди в $(thing)Пил$(), такої як $(thing)Сірка$()."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/red_dye",
+      "text": "$(l:mechanics/dye)Барвники$() можна отримати з різних квітів."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/emerald",
+      "text": "$(thing)Коштовні камені$() також можна перемолоти в порошок."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/barley_grain",
+      "text": "$(thing)Борошно$() можна отримати з будь-якого зерна."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/fluxstone",
+      "text": "$(l:mechanics/flux)Флюс$() також отримується за допомогою жорна."
+    }
+  ],
+  "read_by_default": true
+}
